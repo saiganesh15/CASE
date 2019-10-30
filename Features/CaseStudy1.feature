@@ -7,7 +7,7 @@ Feature: DemoWeb Shop Registration
     And Chooses to click on register
     When User enters the details "<gender>" and "<fname>" and "<lname>" and "<email>" and "<password>" and "<cpassword>" 
     And Clicks on register
-   Then User will see his user homepages
+   Then User will see his user homepage
    
 Examples:
 	|gender		|fname		|lname		|email											| password			| cpassword			|

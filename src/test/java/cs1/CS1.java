@@ -58,12 +58,12 @@ public class CS1
 	{
 		p.findElement(By.xpath("//*[@id=\"register-button\"]")).click();
 		Thread.sleep(3000);
-		p.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[2]/input")).click();
-		Thread.sleep(3000);
-		p.close();
+//		p.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[2]/input")).click();
+//		Thread.sleep(3000);
+//		p.close();
 	}
 
-	/*
+	
 	 @Then("User will see his user homepage")
 	 
 	public void user_will_see_his_user_homepage() throws InterruptedException 
@@ -73,5 +73,4 @@ public class CS1
 		Thread.sleep(3000);
 		p.close();
 	}
-*/
 }
